@@ -9,6 +9,8 @@ const NewGrudge = React.memo(({ onSubmit }) => {
     onSubmit({ person, reason });
   };
 
+  console.log('making new grudge');
+  
   return (
     <form className="NewGrudge" onSubmit={handleChange}>
       <input
